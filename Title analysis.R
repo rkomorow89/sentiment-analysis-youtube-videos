@@ -1,4 +1,5 @@
-setwd("C:/Users/Robert/OneDrive/Dokumente/HICCS")
+setwd("C:/path/to/your/project")
+
 getwd()
 us<-read.table("USvideos.txt", sep = ",", header = T, encoding = "UTF-8")
 head(us$title, n = 10)
